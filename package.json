@@ -1,5 +1,5 @@
 {
-  "name": "array-to-hash",
+  "name": "array-to-hash-object",
   "version": "0.1.0",
   "description": "transfrom array to object according to the key parameter",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/youngwind/array-to-hash.git"
+    "url": "git+https://github.com/youngwind/array-to-hash-object.git"
   },
   "keywords": [
     "array",
@@ -18,9 +18,9 @@
   "author": "youngwind",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/youngwind/array-to-hash/issues"
+    "url": "https://github.com/youngwind/array-to-hash-object/issues"
   },
-  "homepage": "https://github.com/youngwind/array-to-hash#readme",
+  "homepage": "https://github.com/youngwind/array-to-hash-object#readme",
   "dependencies": {
     "chai": "^3.5.0",
     "lodash": "^4.8.2",

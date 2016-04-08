@@ -34,12 +34,12 @@ var before = [
 
 # Install
 ```
-npm install array-to-hash --save
+npm install array-to-hash-object --save
 ```
 
 # Usage
 ```
-var arrayToHash = require('array-to-hash');
+var arrayToHash = require('array-to-hash-object');
 var after = arrayToHash(before,'id');
 console.log(after);
 ```
