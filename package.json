@@ -1,0 +1,30 @@
+{
+  "name": "array-to-hash",
+  "version": "0.1.0",
+  "description": "transfrom array to object according to the key parameter",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youngwind/array-to-hash.git"
+  },
+  "keywords": [
+    "array",
+    "object",
+    "hash"
+  ],
+  "author": "youngwind",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youngwind/array-to-hash/issues"
+  },
+  "homepage": "https://github.com/youngwind/array-to-hash#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "lodash": "^4.8.2",
+    "mocha": "^2.4.5"
+  },
+  "readme": "ERROR: No README data found!"
+}
