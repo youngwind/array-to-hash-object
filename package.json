@@ -1,6 +1,6 @@
 {
   "name": "array-to-hash-object",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "transfrom array to object according to the key parameter",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,5 @@
     "chai": "^3.5.0",
     "lodash": "^4.8.2",
     "mocha": "^2.4.5"
-  },
-  "readme": "ERROR: No README data found!"
+  }
 }
