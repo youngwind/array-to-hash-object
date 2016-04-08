@@ -15,9 +15,7 @@ var before = [
  age:30
 }
 ];
-var arrayToHash = require('array-to-hash');
-var after = arrayToHash(before,'id');
-console.log(after);
+
 ```
 
 ```
@@ -33,3 +31,16 @@ console.log(after);
   }
 }
 ```
+
+# Install
+```
+npm install array-to-hash --save
+```
+
+# Usage
+```
+var arrayToHash = require('array-to-hash');
+var after = arrayToHash(before,'id');
+console.log(after);
+```
+
