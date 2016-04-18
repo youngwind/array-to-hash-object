@@ -1,6 +1,6 @@
 {
   "name": "array-to-hash-object",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "transfrom array to object according to the key parameter",
   "main": "index.js",
   "scripts": {
