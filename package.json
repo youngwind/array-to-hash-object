@@ -1,6 +1,6 @@
 {
   "name": "array-to-hash-object",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "transfrom array to object according to the key parameter",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,10 @@
   "dependencies": {
     "chai": "^3.5.0",
     "lodash": "^4.8.2",
+    "lodash.clonedeep": "^4.3.2",
+    "lodash.isarray": "^4.0.0",
+    "lodash.isempty": "^4.2.1",
+    "lodash.isstring": "^4.0.1",
     "mocha": "^2.4.5"
   }
 }
