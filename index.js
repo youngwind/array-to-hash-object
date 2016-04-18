@@ -5,25 +5,24 @@
  * @returns {{}}  {Object} 范式化对象
  */
 
-var isArray = require('lodash.isarray');
-var isEmpty = require('lodash.isempty');
-var isString = require('lodash.isstring');
 var cloneDeep = require('lodash.clonedeep');
+var is = require('is_js');
+
 module.exports = function (ary, fieldKey) {
 
-  if (!isArray(ary)) {
+  if (is.not.array(ary)) {
     throw new Error('ary is not an array');
   }
-  if (isEmpty(ary)) {
+  if (is.empty(ary)) {
     throw new Error('ary can not be null');
   }
-  if (!isString(fieldKey)) {
+  if (is.not.string(fieldKey)) {
     throw new Error('key must be string');
   }
-  if (isEmpty(fieldKey)) {
+  if (is.empty(fieldKey)) {
     throw new Error('fieldKey can not be null');
   }
-  var tempAry = cloneDeep(ary);
+  var tempAry = JSON.parse(JSON.stringify((ary)));
   var destObject = {};
   tempAry.forEach(function (value, key) {
     if (!value[fieldKey]) {
