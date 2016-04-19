@@ -1,6 +1,6 @@
 {
   "name": "array-to-hash-object",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "transfrom array to object according to the key parameter",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   "homepage": "https://github.com/youngwind/array-to-hash-object#readme",
   "dependencies": {
     "chai": "^3.5.0",
-    "is_js": "^0.8.0",
+    "lodash": "^4.11.1",
     "mocha": "^2.4.5"
   }
 }
